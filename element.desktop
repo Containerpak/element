@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Element
+Comment=Communicate securely over Matrix.
+Exec=element %U
+Icon=element
+Terminal=false
+Categories=Network;InstantMessaging;
