@@ -3,7 +3,7 @@ FROM ubuntu:26.04 AS source
 ADD --checksum=sha256:f6acf34dec1b5caf54683382dcdbefb7cac2fb7b956a73828cf61946aa302655 https://packages.element.io/desktop/install/linux/glibc-x86-64/element-desktop-1.12.25.tar.gz /tmp/app.tar.gz
 
 RUN mkdir -p /out && \
-    tar -xzf /tmp/app.tar.gz -C /out
+    tar -xzf /tmp/app.tar.gz --strip-components=1 -C /out
 
 FROM ghcr.io/containerpak/gtk3:main
 
