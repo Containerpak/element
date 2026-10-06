@@ -4,7 +4,7 @@
   "name": "Element",
   "description": "Communicate securely over Matrix.",
   "version": "1.12.25",
-  "image": "ghcr.io/containerpak/element@sha256:c1db1198f585fbc95dae7da4af5935336398aa7ff1ef613bb8c59043ae72bc9c",
+  "image": "ghcr.io/containerpak/element@sha256:a408af5cedc8d3bda37d3d2d41f1d4caad6047fde4821cdba12686627aa720af",
   "binaries": [
     "/usr/bin/element"
   ],
